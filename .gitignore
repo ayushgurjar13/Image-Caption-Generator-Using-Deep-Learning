@@ -1,0 +1,159 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+.
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+.jupyter/
+
+# Model Files (Large files - exclude from git)
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.onnx
+model_checkpoints/
+models/
+saved_models/
+checkpoints/
+
+# Dataset Files (Large files - exclude from git)
+data/Images/
+data/images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.svg
+data/textFiles/30k_captions.txt
+data/textFiles/flickr30k_train.txt
+data/textFiles/flickr30k_val.txt
+data/textFiles/flickr30k_test.txt
+data/textFiles/tokens_clean.txt
+data/textFiles/*.pkl
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# TensorFlow/Keras
+*.tfevents.*
+tensorboard_logs/
+tf_logs/
+keras_logs/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~*
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+*.cache
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Ignore specific large files but keep sample/demo images
+!images/systemdiagram.PNG
+!images/words.JPG
+!images/caption3.JPG
+!images/caption4.JPG
+!images/ui.JPG
+
+# Keep requirements and documentation
+!requirements.txt
+!README.md
+
+# Ignore tokenizer files if they're large
+tokenizer.pkl
+
+# Ignore VGG16 directory if it contains duplicates
+VGG16/
+
+# Ignore any downloaded weights
+*.weights
+weights/
+pretrained/
